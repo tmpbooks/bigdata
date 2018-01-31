@@ -25,3 +25,11 @@ bin/hdfs dfs -cat /output/*
 
 #stop
 sbin/stop-dfs.sh
+
+
+#start namenode/datanode
+sbin/hadoop-daemon.sh --script hdfs start namenode
+sbin/hadoop-daemon.sh --script hdfs start datanode
+#stop namenode/datanode
+sbin/hadoop-daemon.sh --script hdfs stop namenode
+sbin/hadoop-daemon.sh --script hdfs stop datanode
