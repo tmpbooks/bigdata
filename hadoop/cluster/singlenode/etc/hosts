@@ -1,6 +1,6 @@
 #/etc/hosts
 127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1	      localhost localhost.localdomain localhost6 localhost6.localdomain6
-10.62.12.144 NameNode.Hadoop
 10.62.12.142 DataNode.Hadoop
+10.62.12.144 NameNode.Hadoop
 10.62.12.144 DataNode.Hadoop
