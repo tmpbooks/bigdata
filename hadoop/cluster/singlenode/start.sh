@@ -33,3 +33,10 @@ sbin/hadoop-daemon.sh --script hdfs start datanode
 #stop namenode/datanode
 sbin/hadoop-daemon.sh --script hdfs stop namenode
 sbin/hadoop-daemon.sh --script hdfs stop datanode
+
+
+//主要配置文件
+masters
+slaves
+core-site.xml
+hdfs-site.xml
